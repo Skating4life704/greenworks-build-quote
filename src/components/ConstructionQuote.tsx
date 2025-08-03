@@ -33,7 +33,7 @@ export const ConstructionQuote = ({ data = {} }: ConstructionQuoteProps) => {
   return (
     <div className="max-w-4xl mx-auto bg-background shadow-lg">
       {/* Header */}
-      <div className="bg-gradient-to-r from-green-primary to-green-primary/90 p-8 text-primary-foreground">
+      <div className="bg-white p-8 text-primary-foreground">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img 
