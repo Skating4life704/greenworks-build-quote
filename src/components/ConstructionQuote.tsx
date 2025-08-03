@@ -35,18 +35,14 @@ export const ConstructionQuote = ({ data = {} }: ConstructionQuoteProps) => {
       {/* Header */}
       <div className="bg-gradient-to-r from-green-primary to-green-primary/90 p-8 text-primary-foreground">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center">
             <img 
               src="/lovable-uploads/a5ea3fc1-de66-4922-b07d-cc1336026867.png" 
               alt="Green Works Logo" 
               className="h-16 w-auto bg-white p-2 rounded"
             />
-            <div>
-              <h1 className="text-3xl font-bold">GREEN WORKS</h1>
-              <p className="text-lg font-medium">Construction & Design Inc</p>
-            </div>
           </div>
-          <div className="text-right text-sm">
+          <div className="text-right text-sm text-black">
             <p>Contractor License #: 936962 • State of California</p>
             <p>20720 Ventura Blvd #270 Woodland Hills CA, 91364</p>
             <p className="font-semibold">888-513-8444</p>
